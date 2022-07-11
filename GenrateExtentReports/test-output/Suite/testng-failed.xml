@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test loginOrangeHRM(failed)">
+    <parameter name="author" value="Bharath"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.real.example.extent.TestRunner">
+        <methods>
+          <include name="initialiseExtentreport"/>
+          <include name="generateExtentReport"/>
+          <include name="checkSatus"/>
+          <include name="launch"/>
+          <include name="loginOrangeHRM"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.real.example.extent.TestRunner -->
+    </classes>
+  </test> <!-- Test loginOrangeHRM(failed) -->
+  <test thread-count="5" name="Test FaceBook(failed)">
+    <parameter name="author" value="Bondada"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.real.example.extent.TestRunner">
+        <methods>
+          <include name="initialiseExtentreport"/>
+          <include name="generateExtentReport"/>
+          <include name="checkSatus"/>
+          <include name="launch"/>
+          <include name="FaceBook"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.real.example.extent.TestRunner -->
+    </classes>
+  </test> <!-- Test FaceBook(failed) -->
+</suite> <!-- Failed suite [Suite] -->

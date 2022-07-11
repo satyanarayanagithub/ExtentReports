@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test loginOrangeHRM">
+  <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="author" value="Bharath"></parameter>
+    <classes>
+      <class name="com.real.example.extent.TestRunner">
+      <methods>
+      <include name="loginOrangeHRM"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test Google" >
+     <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="author" value="Kumar"></parameter>
+    <classes>
+      <class name="com.real.example.extent.TestRunner">
+      <methods>
+    <include name="Google"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test FaceBook" >
+    <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="author" value="Bondada"></parameter>
+    <classes>
+      <class name="com.real.example.extent.TestRunner">
+      <methods>
+    <include name="FaceBook"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
